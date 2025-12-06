@@ -1,0 +1,46 @@
+# Site Settings
+title: Puerto Varas Real Estate
+description: Professional real estate services specializing in property flips and long/short term rentals in Metro Detroit. Investment opportunities available.
+url: "" # Leave empty for GitHub Pages
+baseurl: "" # Leave empty if repository name is username.github.io
+
+# Build Settings
+markdown: kramdown
+# Theme is optional - we're using custom layouts
+# theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Site Author
+author:
+  name: Puerto Varas Real Estate
+  email: info@puertovarasrealestate.com
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Services
+    url: /#services
+  - title: About
+    url: /#about
+  - title: Contact
+    url: /#contact
+
+# Social Media (update with your actual links)
+social:
+  twitter_username: ""
+  github_username: ""
+  linkedin_username: ""
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+

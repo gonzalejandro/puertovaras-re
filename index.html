@@ -1,0 +1,151 @@
+---
+layout: default
+title: Home
+description: Real estate investment company in Metro Detroit - Property flips and rental investments. Investment opportunities available.
+---
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container">
+        <div class="hero-content">
+            <img src="{{ '/assets/PNG Logo Files/Transparent Logo.png' | relative_url }}" alt="Puerto Varas Real Estate - Metro Detroit" class="hero-logo">
+            <p class="hero-subtitle">Your trusted partner for real estate investment opportunities in Metro Detroit</p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn btn-primary">Our Services</a>
+                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="services">
+    <div class="container">
+        <h2 class="section-title">Investment Opportunities</h2>
+        <p class="section-subtitle">Real estate investment opportunities in Metro Detroit</p>
+        
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">🏠</div>
+                <h3>Property Flips</h3>
+                <p>We identify, acquire, renovate, and resell properties in Metro Detroit. All flips are done in-house by our team. Investors can participate in our flip projects and share in the returns.</p>
+                <ul class="service-features">
+                    <li>In-house property identification & analysis</li>
+                    <li>In-house renovation management</li>
+                    <li>Market timing & strategy</li>
+                    <li>Invest with us in flip projects</li>
+                </ul>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">🏡</div>
+                <h3>Long-Term Rentals</h3>
+                <p>We acquire and hold long-term rental properties in Metro Detroit for our own portfolio. All operations are handled in-house. Investors can invest with us to participate in our rental property portfolio.</p>
+                <ul class="service-features">
+                    <li>In-house portfolio acquisition</li>
+                    <li>In-house tenant screening & management</li>
+                    <li>In-house property maintenance</li>
+                    <li>Invest with us in rental properties</li>
+                </ul>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">🌴</div>
+                <h3>Short-Term Rentals</h3>
+                <p>We own and operate short-term rental properties throughout Metro Detroit. All operations are managed in-house by our team. Investors can invest with us to participate in our short-term rental portfolio.</p>
+                <ul class="service-features">
+                    <li>In-house property acquisition</li>
+                    <li>In-house listing & guest management</li>
+                    <li>In-house cleaning & maintenance</li>
+                    <li>Invest with us in short-term rentals</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="about">
+    <div class="container">
+        <div class="about-content">
+            <div class="about-text">
+                <h2 class="section-title">About Puerto Varas Real Estate</h2>
+                <p>Puerto Varas Real Estate is a Metro Detroit-based real estate investment company with 5 years of experience in the local market. We understand the unique opportunities this dynamic region offers. We actively flip properties and hold long-term and short-term rental portfolios - all operations are handled in-house by our team.</p>
+                <p>We offer investment opportunities to qualified investors who want to participate in our property flips and rental portfolios. Whether you're looking to invest in property flips for quick returns or participate in our rental property portfolio, we provide the knowledge, resources, and track record needed to achieve strong real estate investment returns.</p>
+                <div class="about-stats">
+                    <div class="stat">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Doors</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">5</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">Metro</div>
+                        <div class="stat-label">Detroit Focus</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="container">
+        <h2 class="section-title">Get in Touch</h2>
+        <p class="section-subtitle">Interested in investing with us? Contact us today to learn more.</p>
+        
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <p><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>Phone</h3>
+                    <p><a href="tel:+12484952182">(248) 495-2182</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>Location</h3>
+                    <p>Detroit, Michigan<br>Serving Metro Detroit Area</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Investment Opportunities</h3>
+                    <p>Property Flips • Long-Term Rentals • Short-Term Rentals</p>
+                </div>
+            </div>
+            
+            <div class="contact-form">
+                <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Investment Interest</label>
+                        <select id="service" name="service" required>
+                            <option value="">Select an investment type</option>
+                            <option value="flips">Property Flips</option>
+                            <option value="long-term">Long-Term Rentals</option>
+                            <option value="short-term">Short-Term Rentals</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
